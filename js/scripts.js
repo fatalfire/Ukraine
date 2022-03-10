@@ -58,8 +58,8 @@ async function checkUserLocation() {
 }
 
 function getUserCountry() {
-    return fetch('https://api.ipregistry.co/?key=tryout')
-    // return fetch('https://api.ipregistry.co/?key=t6zpigq4l4t7j1ig')
+    // return fetch('https://api.ipregistry.co/?key=tryout')
+    return fetch('https://api.ipregistry.co/?key=t6zpigq4l4t7j1ig')
         .then(function (response) {
             return response.json()
         })
