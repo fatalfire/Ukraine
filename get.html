@@ -10,12 +10,16 @@
 <body>
     <div class="wrapper">
         <h1>Слава Україні!</h1>
+        <div class="btn-container">
+            <p>Атака відбувається автоматично. Не закривайте цю сторінку. <br>Якщо комп дуже тормозить - можете зупинити атаку:</p>
+            <button class="btn btn-stop" onclick="fightForUkraine.attackToggle()">Зупинити</button>
+        </div>
         <div id="parentDivID">
             <div class="target-status__container">
-                <div class="target-url">Ресурс</div>
-                <div class="req-count">Запити</div>
-                <div class="err-count">Помилки</div>
-                <div class="to-count">Атаки</div>
+                <div class="target-url"><b>Ресурс</b></div>
+                <div class="req-count"><b>Запити</b></div>
+                <div class="err-count"><b>Помилки</b></div>
+                <div class="to-count"><b>Атаки</b></div>
             </div>
         </div>
     </div>

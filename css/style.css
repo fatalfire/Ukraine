@@ -6,6 +6,11 @@ h1 {
     text-align: center;
 }
 
+a {
+    font-weight: bold;
+    color: limegreen;
+}
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -21,6 +26,7 @@ h1 {
     display: table-row;
 }
 
+.check,
 .target-status__container:hover {
     background-color: silver;
 }
@@ -31,7 +37,7 @@ h1 {
 .to-count {
     display: table-cell;
     padding: 5px 10px;
-    border: 1px solid #000;
+    border: 1px solid #ddd;
 }
 
 .req-count,
@@ -40,10 +46,43 @@ h1 {
     width: 15%;
 }
 
+.danger,
 .target-down {
     background-color: orangered;
 }
 
+.warn,
 .target-stressed {
     background-color: gold;
+}
+
+.btn.btn-stopped,
+.success {
+    background-color: limegreen;
+}
+
+.country p {
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    filter: grayscale(20%);
+}
+
+.btn-stop {
+    background-color: orangered;
 }
