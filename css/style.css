@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#parentDivID {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.target-status__container {
+    display: table-row;
+}
+
+.target-status__container:hover {
+    background-color: silver;
+}
+
+.target-url,
+.req-count,
+.err-count,
+.to-count {
+    display: table-cell;
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+
+.req-count,
+.err-count,
+.to-count {
+    width: 15%;
+}
+
+.target-down {
+    background-color: orangered;
+}
+
+.target-stressed {
+    background-color: gold;
+}
